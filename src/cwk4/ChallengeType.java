@@ -11,7 +11,7 @@ public enum ChallengeType implements Serializable
 {
     MAGIC(" Magic"), FIGHT("Fight"), MYSTERY ("Mystery");
     private String type;
-    
+
     private ChallengeType(String ty)
     {
         type = ty;
